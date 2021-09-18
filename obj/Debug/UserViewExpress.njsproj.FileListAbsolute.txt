@@ -1,0 +1,3 @@
+c:\users\matsui\documents\visual studio 2017\Projects\UserViewExpress\UserViewExpress\obj\Debug\UserViewExpress.njsprojAssemblyReference.cache
+c:\users\matsui\documents\visual studio 2017\Projects\UserViewExpress\UserViewExpress\obj\Debug\UserViewExpress.njsproj.CoreCompileInputs.cache
+c:\users\matsui\documents\visual studio 2017\Projects\UserViewExpress\UserViewExpress\bin\Microsoft.NodejsTools.WebRole.dll
