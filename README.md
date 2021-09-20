@@ -256,3 +256,38 @@ db.userViews.aggregate([
 
 ])
 ```
+
+# API Guide
+
+## Get Total Number of Customers Who Viewed the Product
+
+- Method: GET /getTotalNumberOfCustomers/:product_id'
+- Content: application/json
+
+Where, product_id is the unique key of the specified record in products collection.
+
+Response: 
+
+```
+{ "_id" : 9, "count" : 3 }
+{ "_id" : 8, "count" : 1 }
+```
+
+Where, {"_id",: <month>, "count": <total count>}
+	
+## Get Total Number of Distinc Customers Who Viewed the Product
+
+- Method: GET /getTotalNumberOfDistinctCustomers/:product_id'
+- Content: application/json
+
+Where, product_id is the unique key of the specified record in products collection.
+
+Response: 
+
+```
+{ "_id" : 9, "count" : 3 }
+{ "_id" : 8, "count" : 1 }
+```
+
+Where, {"_id",: <month>, "count": <total count>}
+		
