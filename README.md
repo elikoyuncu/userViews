@@ -275,7 +275,7 @@ Response:
 
 Where, {"_id",: <month>, "count": <total count>}
 	
-## Get Total Number of Distinc Customers Who Viewed the Product
+## Get Total Number of Distinct Customers Who Viewed the Product
 
 - Method: GET /getTotalNumberOfDistinctCustomers/:product_id'
 - Content: application/json
